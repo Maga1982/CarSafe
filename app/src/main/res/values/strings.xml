@@ -1,6 +1,23 @@
 <resources>
-    <string name="app_name">CarSafe</string>
-
+    <string name="app_name">Copilot Club</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Videos Coming Soon</string>
+    <string name="about">About</string>
+    <string name="traffic">Traffic</string>
+    <string name="weather">Weather</string>
+    <string name="Rideshare">Rideshare</string>
+    <string name="Carpool">Carpool</string>
+    <string name="Donate">Donate</string>
+    <string name="Videos">Video</string>
+    <string name="description1">The Latin “co” prefix means working together, e.g., co-operation, coed, co-op. The Copilot Club provides an intelligent driving safety cooperative course that incorporates new methodologies for both driver and passenger training. Humans do not have a stare at the road button. Road concentration requires discipline and an intense effort to sustain the concentration required for safe driving, while distraction avoidance requires alerting both drivers and passengers about the many distraction dangers, and for starters, it even helps to know this alert!! Since distracted driving is the number one cause of accidents, it has become necessary to modernize driving education to include passengers in safe driving programs. The Copilot Driver License and ASF videos share important road concentration, and driving safety training and insight that benefit drivers, passengers, and all on the road!
+
+Join the Copilot Club free by simply reading the Copilot Driver License, watching the videos, and sending this page to family, friends, and other new copilots. Driving cooperation makes the roads safer. Help protect the ones you love. The safer others drive, the safer you will be!</string>
+    <string name="title2">Passenger Alert</string>
+    <string name="description2">When talking in person, people naturally seek eye contact, and children, often times, can cause disturbances…but mark this, these facts remain true even while driving! Talking hands-free on a mobile phone while driving, is safer than talking to a passenger seeking eye contact. Passengers and children need to be warned not to distract the driver. Copilot Driver License training turns a potentially dangerous passenger seeking eye contact, into a helpful copilot, watching the road, not distracting the driver, handling communications and navigation, while possibly assisting with lane change or parking. Teach driving cooperation and turn a potentially dangerous passenger into a driving safety assistant!</string>
+    <string name="title3">Rideshare, Carpooling</string>
+    <string name="description3">The Copilot Club offers safe and helpful passengers for rideshare or carpools. Copilot passengers double up on road concentration and safe driving measures, while also eliminating unnecessary driving distraction dangers.
+
+ASF recommends that all passengers please watch the Copilot Driver License video. Rideshare companies should send this video to their customers when the ride is ordered, so they can watch it as they wait to be picked up. This practice will aid road safety for drivers, passengers, and all on the road.</string>
+    <string name="title4">World Safety Drive</string>
+    <string name="dscription4">On the road we all copilot. Join the Copilot Club and be a part of the ASF World Safety Drive. Together we can make the roads safer!</string>
 </resources>

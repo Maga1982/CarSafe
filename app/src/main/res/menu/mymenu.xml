@@ -3,12 +3,45 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
-
     <item
-        android:id="@+id/action_favorite"
+        android:title="copilotlogo"
         android:orderInCategory="300"
-        android:title="About"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/copilotlogo"
         app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/about_id"
+        android:orderInCategory="300"
+        android:title="@string/about"
+       app:showAsAction="never"></item>
+    <item
+        android:id="@+id/traffic_id"
+        android:orderInCategory="300"
+        android:title="@string/traffic"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/weather_id"
+        android:orderInCategory="300"
+        android:title="@string/weather"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/rideshare_id"
+        android:orderInCategory="300"
+        android:title="@string/Rideshare"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/carpool_id"
+        android:orderInCategory="300"
+        android:title="@string/Carpool"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/donate_id"
+        android:orderInCategory="300"
+        android:title="@string/Donate"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/videos_id"
+        android:orderInCategory="300"
+        android:title="@string/Videos"
+        app:showAsAction="never"></item>
 
 </menu>

@@ -1,16 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:scrollbars="vertical"
     >
-    <WebView
-        android:id="@+id/webviewid"
+
+
+    <ScrollView
+        android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></WebView>
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/medium">
 
+    <TextView
+        android:theme="@style/titleTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about"/>
 
+    <TextView
+        android:theme="@style/descriptionTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description1"/>
+    <ImageView
+        android:padding="@dimen/small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/copilot"/>
+    <TextView
+        android:theme="@style/titleTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title2"/>
+    <TextView
+        android:theme="@style/descriptionTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description2"/>
+    <ImageView
+        android:padding="@dimen/small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/copilot1"/>
+    <TextView
+        android:theme="@style/titleTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title3"/>
+    <TextView
+        android:theme="@style/descriptionTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description3"/>
+    <TextView
+        android:theme="@style/titleTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title4"/>
+    <TextView
+        android:theme="@style/descriptionTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dscription4"/>
+    <ImageView
+        android:padding="@dimen/small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/copilot3"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
